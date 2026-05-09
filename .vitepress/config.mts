@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  base: '/fee-collection-documentation/',
   title: 'FeeCollection',
   description: 'Laravel package documentation for fee workflows',
   cleanUrls: true,
